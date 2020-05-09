@@ -1,0 +1,35 @@
+{
+  "name": "AntiSplashStealer",
+  "description": " This Discord bot prevents skyblock splash stealer userbots from logging your splashers. ",
+  "repository": "https://github.com/Antonio32A/AntiSplashStealer",
+  "env": {
+    "TOKEN": {
+      "description": "Your Discord bot's token.",
+      "required": true
+    },
+    "GUILD_ID": {
+      "description": "The id of the server where the bot should prevent stealing splashes.",
+      "required": true
+    },
+    "PUBLIC_CHANNEL": {
+      "description": "The public channel where the splashers are gonna be posted, your splashers should not directly send messages there.",
+      "required": true
+    },
+    "PUBLIC_BRIDGE_CHANNEL": {
+      "description": "This is the place where all messages will be sent to PUBLIC_CHANNEL.",
+      "required": true
+    },
+    "PUBLIC_CHANNEL_WEBHOOK": {
+      "description": "This is the URL of the webhook in the public channel.",
+      "required": true
+    },
+    "SPLASH_ROLE": {
+      "description": "The splash role which is pinged every time a splash is announced.",
+      "required": true
+    },
+    "SPLASHER_ROLE": {
+      "description": "This is the role that your splashers will have.",
+      "required": true
+    }
+  }
+}
